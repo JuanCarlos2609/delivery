@@ -995,7 +995,7 @@
                     echo '<input id="CarreraAnterior" name="CarreraAnterior" type="text" style="display: none;" readonly value="'.$NombreTemporal.'">';
                     $NombreTemporal = $_SESSION['FechaGraduacion'];
                     echo '<label  style="position: absolute; top: 184px; left: 30px;" id="LabelFechaGraduacion">Fecha Titulación :</label>';
-                    echo '<input  id="FechaGraduacion" name="FechaGraduacion" required type="text" placeholder="dd/mm/aaaa" style="position: absolute; top: 182px; left: 130px; width:240px;" onkeyup="mayus(this)" value="'.$NombreTemporal.'">';
+                    echo '<input  id="FechaGraduacion" name="FechaGraduacion" required type="text" maxlength="10" placeholder="dd/mm/aaaa" style="position: absolute; top: 182px; left: 130px; width:240px;" onkeyup="mayus(this)" value="'.$NombreTemporal.'">';
                     echo '<input id="FechaGraduacionAnterior" name="FechaGraduacionAnterior" type="text" style="display: none;" readonly value="'.$NombreTemporal.'">';
                     $NombreTemporal = $_SESSION['CentroUniversitario'];
                 ?>                    
@@ -1051,7 +1051,7 @@
                     echo '<input id="CarreraAnterior2" name="CarreraAnterior2" type="text" style="display: none;" readonly value="'.$NombreTemporal.'">';
                     $NombreTemporal = $_SESSION['FechaGraduacion2'];
                     echo '<label  style="position: absolute; top: 332px; left: 30px;" id="LabelFechaGraduacion2">Fecha Titulación 2: </label>';
-                    echo '<input  style="position: absolute; top: 330px; left: 130px; width:240px;" id="FechaGraduacion2" name="FechaGraduacion2" type="text" placeholder="dd/mm/aaaa" onkeyup="mayus(this)" value="'.$NombreTemporal.'">';
+                    echo '<input  style="position: absolute; top: 330px; left: 130px; width:240px;" id="FechaGraduacion2" name="FechaGraduacion2" type="text" maxlength="10" placeholder="dd/mm/aaaa" onkeyup="mayus(this)" value="'.$NombreTemporal.'">';
                     echo '<input id="FechaGraduacionAnterior2" name="FechaGraduacionAnterior2" type="text" style="display: none;" readonly value="'.$NombreTemporal.'">';
                     $NombreTemporal = $_SESSION['CentroUniversitario2'];
                 ?>                    
@@ -1108,7 +1108,7 @@
                     echo '<input id="CarreraAnterior3" name="CarreraAnterior3" type="text" style="display: none;" readonly value="'.$NombreTemporal.'">';
                     $NombreTemporal = $_SESSION['FechaGraduacion3'];
                     echo '<label  style="position: absolute; top: 426px; left: 30px;" id="LabelFechaGraduacion3">Fecha Titulación 3:</label>';
-                    echo '<input  style="position: absolute; top: 424px; left: 130px; width:240px;" id="FechaGraduacion3" name="FechaGraduacion3" type="text" placeholder="dd/mm/aaaa" onkeyup="mayus(this)" value="'.$NombreTemporal.'">';
+                    echo '<input  style="position: absolute; top: 424px; left: 130px; width:240px;" id="FechaGraduacion3" name="FechaGraduacion3" type="text" maxlength="10" placeholder="dd/mm/aaaa" onkeyup="mayus(this)" value="'.$NombreTemporal.'">';
                     echo '<input id="FechaGraduacionAnterior3" name="FechaGraduacionAnterior3" type="text" style="display: none;" readonly value="'.$NombreTemporal.'">';
                     $NombreTemporal = $_SESSION['CentroUniversitario3'];
                 ?>                    
@@ -1165,7 +1165,7 @@
                     echo '<input id="CarreraAnterior4" name="CarreraAnterior4" type="text" style="display: none;" readonly value="'.$NombreTemporal.'">';
                     $NombreTemporal = $_SESSION['FechaGraduacion4'];
                     echo '<label  style="position: absolute; top: 522px; left: 30px;" id="LabelFechaGraduacion4">Fecha Titulación 4:</label>';
-                    echo '<input  style="position: absolute; top: 520px; left: 130px; width:240px;" id="FechaGraduacion4" name="FechaGraduacion4" type="text" placeholder="dd/mm/aaaa" onkeyup="mayus(this)" value="'.$NombreTemporal.'">';
+                    echo '<input  style="position: absolute; top: 520px; left: 130px; width:240px;" id="FechaGraduacion4" name="FechaGraduacion4" type="text" maxlength="10" placeholder="dd/mm/aaaa" onkeyup="mayus(this)" value="'.$NombreTemporal.'">';
                     echo '<input id="FechaGraduacionAnterior4" name="FechaGraduacionAnterior4" type="text" style="display: none;" readonly value="'.$NombreTemporal.'">';
                     $NombreTemporal = $_SESSION['CentroUniversitario4'];
                 ?>                    
@@ -1222,7 +1222,7 @@
                     echo '<input id="CarreraAnterior5" name="CarreraAnterior5" type="text" style="display: none;" readonly value="'.$NombreTemporal.'">';
                     $NombreTemporal = $_SESSION['FechaGraduacion5'];
                     echo '<label  style="position: absolute; top: 618px; left: 30px;" id="LabelFechaGraduacion4">Fecha Titulación 5:</label>';
-                    echo '<input  style="position: absolute; top: 616px; left: 130px; width:240px;" id="FechaGraduacion5" name="FechaGraduacion5" type="text" placeholder="dd/mm/aaaa" onkeyup="mayus(this)" value="'.$NombreTemporal.'">';
+                    echo '<input  style="position: absolute; top: 616px; left: 130px; width:240px;" id="FechaGraduacion5" name="FechaGraduacion5" type="text" maxlength="10" placeholder="dd/mm/aaaa" onkeyup="mayus(this)" value="'.$NombreTemporal.'">';
                     echo '<input id="FechaGraduacionAnterior5" name="FechaGraduacionAnterior5" type="text" style="display: none;" readonly value="'.$NombreTemporal.'">';
                     $NombreTemporal = $_SESSION['CentroUniversitario5'];
                 ?>                    
@@ -1627,6 +1627,42 @@
     <script src="vendor/daterangepicker/daterangepicker.js"></script>
     <script src="vendor/countdowntime/countdowntime.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        function formatDate(input) {
+            // Elimina cualquier caracter que no sea número
+            let value = input.value.replace(/\D/g, '');
+            
+            // Limita a 8 dígitos (ddmmyyyy)
+            value = value.substring(0, 8);
+            
+            // Agrega los separadores
+            if (value.length >= 2) {
+                value = value.substring(0, 2) + '/' + value.substring(2);
+            }
+            if (value.length >= 5) {
+                value = value.substring(0, 5) + '/' + value.substring(5);
+            }
+            
+            input.value = value;
+        }
+
+        // Aplicar la máscara a todos los campos de fecha
+        document.getElementById('FechaGraduacion').addEventListener('input', function() {
+            formatDate(this);
+        });
+        document.getElementById('FechaGraduacion2').addEventListener('input', function() {
+            formatDate(this);
+        });
+        document.getElementById('FechaGraduacion3').addEventListener('input', function() {
+            formatDate(this);
+        });
+        document.getElementById('FechaGraduacion4').addEventListener('input', function() {
+            formatDate(this);
+        });
+        document.getElementById('FechaGraduacion5').addEventListener('input', function() {
+            formatDate(this);
+        });
+    </script>
 </body>
 
 </html>
