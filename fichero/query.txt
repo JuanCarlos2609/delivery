@@ -1,0 +1,1 @@
+UPDATE DBUDEG.dbo.BaseTrabajar SET estatus = 1 WHERE Usuario = 'GAONA' and Pdf = 'caja 100_6.pdf'

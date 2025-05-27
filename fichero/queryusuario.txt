@@ -1,0 +1,1 @@
+SELECT Usuario, Password FROM Usuarios WHERE Usuario = 'GAONA'

@@ -1,0 +1,15 @@
+.contenedor-responsivo {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+
+}
+
+.embed-responsivo {
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 95%;
+    height: 75%;
+    border: 0;
+}

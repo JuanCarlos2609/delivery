@@ -1,0 +1,15 @@
+#LabelCalle1 { position: absolute ; left: 30px; top: 430px; }
+#Calle1 { width: 230px; position: absolute ; left: 130px; top: 427px; }
+#LabelCalle2 { position: absolute ; left: 30px; top: 460px; }
+#Calle2 { width: 230px; position: absolute ; left: 130px; top: 457px; }
+#LabelReferencia1 { position: absolute ; left: 30px; top: 490px; }
+#Referencia1 { width: 230px; position: absolute ; left: 130px; top: 487px; }
+#LabelReferencia2 { position: absolute ; left: 30px; top: 520px; }
+#Referencia2 { width: 230px; position: absolute ; left: 130px; top: 517px; }
+#LabelPrograma { position: absolute ; left: 30px; top: 160px; }
+#Programa { width: 230px; position: absolute ; left: 130px; top: 157px; }
+#LabelAnio { position: absolute ; left: 30px; top: 190px; }
+#Anio { width: 230px; position: absolute ; left: 130px; top: 187px; }
+#LabelSemestre { position: absolute ; left: 30px; top: 220px; }
+#Semestre { width: 230px; position: absolute ; left: 130px; top: 217px; }
+

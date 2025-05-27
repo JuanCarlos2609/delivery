@@ -1,0 +1,97 @@
+#cbutton { width: 100px; height: 25px; position: absolute ; left: 30px; top: 20px; }
+#cancel  { width: 100px; height: 25px; position: absolute ; left: 180px; top: 20px; }
+#procesar  { width: 100px; height: 25px; position: absolute ; left: 1150px; top: 20px; }
+
+#ErrorPdf { position: absolute ; left: 1150px; top: 57px; }
+#LabelErrorPdf { position: absolute ; left: 1170px; top: 60px; }
+
+
+#LabelCB  { position: absolute ; left: 290px; top: 23px; }
+#codbarra  { position: absolute ; left: 380px; top: 20px; }
+#ImagenPdf  { width:800px; height: 850px; position: absolute ; left: 380px; top: 100px; }
+#LabelCURP  { position: absolute ; left: 520px; top: 23px; }
+#curp  { position: absolute ; left: 560px; top: 20px; }
+
+#LabelPrograma { position: absolute ; left: 720px; top: 80px; }
+
+
+#LabelCorrecto  { position: absolute ; left: 720px; top: 23px; }
+#radio1  { position: absolute ; left: 700px; top: 20px; }
+#LabelIncorrecto  { position: absolute ; left: 810px; top: 23px; }
+#radio2  { position: absolute ; left: 790px; top: 20px; }
+
+#LabelEsc { position: absolute ; left: 920px; top: 3px; }
+
+
+#LabelCURPCorrecto  { position: absolute ; left: 890px; top: 23px; }
+#CurpCorregido  { position: absolute ; left: 1010px; top: 20px; }
+#LabelComentarios { position: absolute ; left: 30px; top: 60px; }
+#comenexp { width: 560px; position: absolute ; left: 130px; top: 57px; }
+
+#TextArea1 { position: absolute ; left: 750px; top: 57px; }
+
+#SinComprobante { position: absolute ; left: 900px; top: 57px; }
+#LabelSinComprobante { position: absolute ; left: 920px; top: 60px; }
+
+#VariosExpedientes { position: absolute ; left: 700px; top: 57px; }
+#LabelVariosExpedientes { position: absolute ; left: 720px; top: 60px; }
+#ImagenRotada { position: absolute ; left: 860px; top: 57px; }
+#LabelImagenRotada { position: absolute ; left: 880px; top: 60px; }
+#HojasBlancas { position: absolute ; left: 1020px; top: 57px; }
+#LabelHojasBlancas { position: absolute ; left: 1040px; top: 60px; }
+
+
+#ConComprobante { position: absolute ; left: 1020px; top: 57px; }
+#LabelConComprobante { position: absolute ; left: 1040px; top: 60px; }
+#LabelNombrePdf { position: absolute ; left: 30px; top: 100px; }
+#pdfname { width: 200px;position: absolute ; left: 130px; top: 97px; }
+#LabelError { position: absolute ; left: 340px; top: 97px; }
+#LabelNoExpediente { position: absolute ; left: 30px; top: 130px; }
+#NoExpediente { width: 200px; position: absolute ; left: 130px; top: 127px; }
+#cbNoExpediente { position: absolute ; left: 342px; top: 127px; }
+
+#LabelNombre { position: absolute ; left: 30px; top: 160px; }
+#Nombre { width: 200px; position: absolute ; left: 130px; top: 157px; color:#3a1616;}
+#cbNombre { position: absolute ; left: 342px; top: 157px; }
+
+#LabelPaterno { position: absolute ; left: 30px; top: 190px; }
+#Paterno { width: 200px; position: absolute ; left: 130px; top: 187px; }
+#cbPaterno { position: absolute ; left: 342px; top: 187px; }
+
+#LabelMaterno { position: absolute ; left: 30px; top: 220px; }
+#Materno { width: 200px; position: absolute ; left: 130px; top: 217px; }
+#cbMaterno { position: absolute ; left: 342px; top: 217px; }
+
+#LabelCalle { position: absolute ; left: 30px; top: 250px; }
+#Calle { width: 200px; position: absolute ; left: 130px; top: 247px; }
+#cbCalle { position: absolute ; left: 342px; top: 247px; }
+
+#LabelNoExterior { position: absolute ; left: 30px; top: 280px; }
+#NoExterior { width: 200px; position: absolute ; left: 130px; top: 277px; }
+#cbNoExterior { position: absolute ; left: 342px; top: 277px; }
+
+#LabelNoInterior { position: absolute ; left: 30px; top: 310px; }
+#NoInterior { width: 200px; position: absolute ; left: 130px; top: 307px; }
+#cbNoInterior { position: absolute ; left: 342px; top: 307px; }
+
+#LabelColonia { position: absolute ; left: 30px; top: 340px; }
+#Colonia { width: 200px; position: absolute ; left: 130px; top: 337px; }
+#cbColonia { position: absolute ; left: 342px; top: 337px; }
+
+#LabelCP { position: absolute ; left: 30px; top: 370px; }
+#CP { width: 200px; position: absolute ; left: 130px; top: 367px; }
+#cbCP { position: absolute ; left: 342px; top: 367px; }
+
+#LabelTelCas { position: absolute ; left: 30px; top: 400px; }
+#TelCas { width: 200px; position: absolute ; left: 130px; top: 397px; }
+#cbTelCas { position: absolute ; left: 342px; top: 397px; }
+
+#LabelTelCel { position: absolute ; left: 30px; top: 430px; }
+#TelCel { width: 200px; position: absolute ; left: 130px; top: 427px; }
+#cbTelCel { position: absolute ; left: 342px; top: 427px; }
+
+#LabelTelAdicional { position: absolute ; left: 30px; top: 460px; }
+#TelAdicional { width: 200px; position: absolute ; left: 130px; top: 457px; }
+
+
+
