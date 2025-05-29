@@ -802,13 +802,13 @@
     <title>Captura</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.0/sweetalert2.css" />
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.0/sweetalert2.js"></script>
-    <!-- CSS de Select2 -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
-    <!-- jQuery y JS de Select2 -->
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Select2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <!-- Select2 JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.0/sweetalert2.js"></script>
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/img/logonuevo.jpg" rel="icon">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -1629,13 +1629,10 @@
     <script src="js/main.js"></script>
     <script>
         function formatDate(input) {
-            // Elimina cualquier caracter que no sea número
             let value = input.value.replace(/\D/g, '');
             
-            // Limita a 8 dígitos (ddmmyyyy)
             value = value.substring(0, 8);
             
-            // Agrega los separadores
             if (value.length >= 2) {
                 value = value.substring(0, 2) + '/' + value.substring(2);
             }
@@ -1646,7 +1643,6 @@
             input.value = value;
         }
 
-        // Aplicar la máscara a todos los campos de fecha
         document.getElementById('FechaGraduacion').addEventListener('input', function() {
             formatDate(this);
         });
@@ -1662,6 +1658,116 @@
         document.getElementById('FechaGraduacion5').addEventListener('input', function() {
             formatDate(this);
         });
+    </script>
+
+    <script>
+    $(document).ready(function() {
+        // Inicializar Select2 en todos los selects de carreras
+        $('#Carrera').select2({
+            placeholder: 'Seleccione una carrera',
+            allowClear: true,
+            width: '240px',
+            dropdownParent: $('body')
+        });
+        $('#Carrera2').select2({
+            placeholder: 'Seleccione una carrera',
+            allowClear: true,
+            width: '240px',
+            dropdownParent: $('body')
+        });
+        $('#Carrera3').select2({
+            placeholder: 'Seleccione una carrera',
+            allowClear: true,
+            width: '240px',
+            dropdownParent: $('body')
+        });
+        $('#Carrera4').select2({
+            placeholder: 'Seleccione una carrera',
+            allowClear: true,
+            width: '240px',
+            dropdownParent: $('body')
+        });
+        $('#Carrera5').select2({
+            placeholder: 'Seleccione una carrera',
+            allowClear: true,
+            width: '240px',
+            dropdownParent: $('body')
+        });
+
+        // Inicializar Select2 en todos los selects de centros universitarios
+        $('#CentroUniversitario').select2({
+            placeholder: 'Seleccione una universidad',
+            allowClear: true,
+            width: '240px',
+            dropdownParent: $('body')
+        });
+        $('#CentroUniversitario2').select2({
+            placeholder: 'Seleccione una universidad',
+            allowClear: true,
+            width: '240px',
+            dropdownParent: $('body')
+        });
+        $('#CentroUniversitario3').select2({
+            placeholder: 'Seleccione una universidad',
+            allowClear: true,
+            width: '240px',
+            dropdownParent: $('body')
+        });
+        $('#CentroUniversitario4').select2({
+            placeholder: 'Seleccione una universidad',
+            allowClear: true,
+            width: '240px',
+            dropdownParent: $('body')
+        });
+        $('#CentroUniversitario5').select2({
+            placeholder: 'Seleccione una universidad',
+            allowClear: true,
+            width: '240px',
+            dropdownParent: $('body')
+        });
+
+        // Ajustar posiciones de los contenedores Select2
+        $('.select2-container').each(function() {
+            var selectId = $(this).prev('select').attr('id');
+            var $select = $('#' + selectId);
+            var position = $select.position();
+            var top = $select.css('top');
+            var left = $select.css('left');
+            
+            $(this).css({
+                'position': 'absolute',
+                'top': top,
+                'left': left
+            });
+        });
+    });
+
+    // Agregar estilos personalizados para los contenedores de Select2
+    $("<style>")
+        .prop("type", "text/css")
+        .html(`
+        .select2-container {
+            z-index: 9999;
+        }
+        .select2-dropdown {
+            z-index: 9999;
+        }
+        .select2-container .select2-selection--single {
+            height: 34px;
+            padding: 3px;
+        }
+        .select2-container--default .select2-selection--single {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            line-height: 28px;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+            height: 32px;
+        }
+        `)
+        .appendTo("head");
     </script>
 </body>
 
